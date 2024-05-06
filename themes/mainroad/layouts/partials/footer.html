@@ -2,7 +2,7 @@
 	<div class="container footer__container flex">
 		{{ partial "footer_links.html" . }}
 		<div class="footer__copyright">
-			&copy; {{ now.Format "2006" }} {{ .Site.Params.copyright | default .Site.Title }}.
+			&copy; {{ now.Format "2006" }} 本博客所有文章除特别声明外，均采用<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank">BY-NC-ND</a>许可协议。转载请注明出处！.
 			<span class="footer__copyright-credits">{{ T "footer_credits" | safeHTML }}</span>
 		</div>
 	</div>
